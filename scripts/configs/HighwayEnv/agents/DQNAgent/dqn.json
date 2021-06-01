@@ -12,9 +12,9 @@
     "target_update": 50,
     "exploration": {
         "method": "EpsilonGreedy",
-        "tau": 6000,
+        "tau": 7000,
         "temperature": 1.0,
-        "final_temperature": 0.05
+        "final_temperature": 0.01   
     },
     "loss_function": "l2"
 }
